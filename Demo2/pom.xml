@@ -5,19 +5,20 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>Winza</groupId>
-  <artifactId>Demo</artifactId>
+  <artifactId>Demo2</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
 
-  <name>Demo
+  <name>Demo2
 </name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
-  <modules>
-   <module>Demo1</module>
-   <module>Demo2</module>    
-</modules>
+  <parent>
+    <groupId>Winza</groupId>
+    <artifactId>Demo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
